@@ -1,0 +1,64 @@
+/* ////////////////////////////////////////////
+
+this is Default Setting for Cardly CSS Framework
+Author : Phawee Toraparppisan (Kizz)
+Start Date : 31/01/2020
+
+Cardly is an Open Source CSS framework that makes it easier to work, just putting ready-made CSS you will get a beautiful website quickly.
+
+////////////////////////////////////////////// */
+
+
+/* Import Components */
+@import url("components.css");
+
+
+/* Default Setting */
+
+* {
+    margin: 0 auto;
+}
+
+body {
+    background: #F6F6F6 ;
+    color: #1F2020;
+    font-family: sans-serif;
+}
+
+/* Screen Mobile Size */
+@media screen and (min-width: 200px) {
+    
+    .starter { 
+        width: 350px !important;
+        border-radius: 30px !important;
+        margin-top: 60px !important;
+    }    
+}
+
+
+/* Screen Desktop Size */
+
+@media screen and (min-width: 610px) {
+
+    .starter { 
+        width: 600px !important;
+        border-radius: 30px !important;
+        margin-top: 60px !important;
+    }
+}
+
+/* For All */
+
+.next {
+    margin-bottom: 30px !important;
+    }
+
+.dark {
+    background: #1F2020 !important;
+    color: white !important;
+    }
+
+.white {
+    color: black !important;
+}
+
